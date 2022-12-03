@@ -36,8 +36,6 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-
-
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         recyclerView.setAdapter(new MyAdapter(getApplicationContext(),items));
         getSupportActionBar().hide();
